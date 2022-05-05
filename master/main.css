@@ -3976,6 +3976,9 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
         display: none
 }
     }
+.yearSelectorButton_1ibZo {
+    margin-left: var(--gap-xs);
+}
 .component_33jle {
     width: var(--calendar-width);
     height: var(--calendar-height);
