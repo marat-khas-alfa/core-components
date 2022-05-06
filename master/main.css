@@ -2039,6 +2039,10 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
 .control_1KAL_::-webkit-file-upload-button {
         cursor: inherit;
     }
+.size_xs_3PJKI {
+    width: 18px;
+    height: 18px;
+}
 /* TODO обновить типографику на новую, когда ее зарелизят */
 .xs_1uhc6 .file_qiuId,
 .xs_1uhc6 .noFile_27UJI {
