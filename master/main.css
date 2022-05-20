@@ -2165,6 +2165,16 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     color: var(--color-light-text-primary-inverted);
     overflow: hidden;
 }
+.count_23S5c {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 2px;
+}
+.outlineCount_153ID {
+    background-color: var(--badge-icon-bg-color);
+    border-radius: 99px;
+}
 .s_2mOsT {
     height: 16px;
     min-width: 16px;
@@ -2180,51 +2190,124 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     min-width: 24px;
     padding: 0 6px;
 }
+.heightS_1wwsw {
+    padding: 0 var(--gap-2xs);
+}
+.heightM_1pVst {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 0 var(--gap-2xs);
+}
+.heightL__8VII {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 0 var(--gap-xs);
+}
+.heightXL_545BW {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 0 var(--gap-s);
+}
+.heightXXL_14kWm {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 0 var(--gap-m);
+}
+.wrapper_2PBa5 {
+    border-radius: 50%
+}
+.wrapper_2PBa5.s_2mOsT {
+        padding: 2px;
+        min-width: 14px;
+        height: 14px;
+    }
+.wrapper_2PBa5.m_eH0x0 {
+        padding: 2px;
+        width: 20px;
+        height: 20px;
+    }
+.wrapper_2PBa5.xl_2catJ {
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+    }
 .icon_3eNAJ {
     height: auto;
     min-width: 0;
     padding: 0;
-    color: var(--color-light-graphic-positive);
-    background-color: transparent
+    color: var(--color-light-graphic-positive)
 }
 .icon_3eNAJ.positive_3Hh3b {
         color: var(--color-light-graphic-positive);
+        background-color: var(--color-light-graphic-positive);
     }
 .icon_3eNAJ.attention_byFhs {
         color: var(--color-light-graphic-attention);
+        background-color: var(--color-light-graphic-attention);
     }
 .icon_3eNAJ.negative_3sPvi {
         color: var(--color-light-graphic-negative);
+        background-color: var(--color-light-graphic-negative);
     }
 .icon_3eNAJ.link_2IbEV {
         color: var(--color-light-graphic-link);
+        background-color: var(--color-light-graphic-link);
     }
 .icon_3eNAJ.tertiary_1LzD1 {
         color: var(--color-light-graphic-tertiary);
+        background-color: var(--color-light-graphic-tertiary);
     }
 .icon_3eNAJ.secondary_2dmi8 {
         color: var(--color-light-graphic-secondary);
+        background-color: var(--color-light-graphic-secondary);
     }
 .icon_3eNAJ.primary_NnV0G {
         color: var(--color-light-graphic-primary);
+        background-color: var(--color-light-graphic-primary);
     }
+.icon_3eNAJ.s_2mOsT {
+    width: 14px;
+    height: 14px;
+}
 .icon_3eNAJ:before {
     position: absolute;
     z-index: -1;
-    left: 16%;
-    right: 16%;
-    top: 16%;
-    bottom: 16%;
+    left: 18%;
+    right: 18%;
+    top: 18%;
+    bottom: 18%;
     background-color: var(--badge-icon-bg-color);
     border-radius: var(--border-radius-pill);
     content: '';
 }
-.outline_fgLne:before {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+.outline_fgLne {
+    background-color: var(--badge-icon-bg-color);
 }
+.outlineColor_1OkU8.attention_byFhs {
+        background-color: var(--color-light-graphic-attention);
+    }
+.outlineColor_1OkU8.positive_3Hh3b {
+        background-color: var(--color-light-graphic-positive);
+    }
+.outlineColor_1OkU8.negative_3sPvi {
+        background-color: var(--color-light-graphic-negative);
+    }
+.outlineColor_1OkU8.link_2IbEV {
+        background-color: var(--color-light-graphic-link);
+    }
+.outlineColor_1OkU8 .tertiary_1LzD1 {
+        background-color: var(--color-light-graphic-tertiary);
+    }
+.outlineColor_1OkU8.secondary_2dmi8 {
+        background-color: var(--color-light-graphic-secondary);
+    }
+.outlineColor_1OkU8.primary_NnV0G {
+        background-color: var(--color-light-graphic-primary);
+    }
 .dot_1pCa- {
     width: 8px;
     height: 8px;
@@ -2233,6 +2316,14 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
 }
 .isHidden_2GlZc {
     display: none;
+}
+.m_eH0x0 svg {
+    width: 20px;
+    height: 20px;
+}
+.xl_2catJ svg {
+    width: 30px;
+    height: 30px;
 }
 
 .textHidden_3HOvm input {
