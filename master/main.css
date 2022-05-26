@@ -1916,13 +1916,25 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
 :root {
     --amount-major-part-font-weight: bold;
     --amount-minor-part-font-weight: normal;
+    --amount-minor-part-opacity: 0.6;
 }
 .component_1ocYB {
     white-space: nowrap;
+}
+.transparentMinor_XYNaz {
+    opacity: 0.6;
+}
+.bold_23PJy {
+    font-weight: bold;
+}
+.normalMinor_2Jji0 {
+    font-weight: normal;
+}
+.defaultStyles_2tWtK {
     font-weight: var(--amount-major-part-font-weight);
 }
-.minorPartAndCurrency_3mba4 {
-    opacity: 0.6;
+.defaultMinor_1GpXD {
+    opacity: var(--amount-minor-part-opacity);
     font-weight: var(--amount-minor-part-font-weight);
 }
 
