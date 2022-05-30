@@ -6077,12 +6077,10 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     white-space: nowrap;
     margin-right: var(--gap-2xs);
-    margin-left: var(--gap-xl)
+    margin-left: var(--gap-xl);
+    padding: var(--gap-2xs) 0
 }
 .meta_1mDsX > * {
         margin-right: var(--gap-s)
