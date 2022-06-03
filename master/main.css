@@ -186,6 +186,7 @@
     --button-border-radius: var(--border-radius-m);
     --button-active-transform: scale(0.97);
     --button-font-weight: 500;
+    --button-xxs-size-border-radius: 6px;
 }
 .component_2wtkW {
     position: relative;
@@ -265,7 +266,8 @@ a.loading_1jKXs {
     min-width: 80px;
     min-height: var(--size-xs-height);
     padding: 0 var(--gap-m);
-    font-size: 14px
+    font-size: 14px;
+    border-radius: var(--button-xxs-size-border-radius)
 }
 .xxs_io9Ui.iconOnly_3k8_C {
         min-width: var(--size-xs-height);
