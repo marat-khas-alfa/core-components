@@ -10335,6 +10335,253 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     -webkit-transform: var(--arrow-transform);
             transform: var(--arrow-transform);
 }
+:root {
+    --scrollbar-rail-size: 12px;
+    --scrollbar-thumb-size: 6px;
+    --scrollbar-thumb-border-radius: 3px;
+    --scrollbar-thumb-side-outer-offset: 4px;
+    --scrollbar-thumb-side-inner-offset: 1px;
+    --scrollbar-scaling-factor: 1.5;
+}
+.component_3LABJ {
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start
+}
+.component_3LABJ .wrapper_1-9H8 {
+        overflow: hidden;
+        width: inherit;
+        height: inherit;
+        max-width: inherit;
+        max-height: inherit;
+    }
+.component_3LABJ .heightAutoObserverWrapper_3-xEe {
+        -webkit-box-sizing: inherit;
+                box-sizing: inherit;
+        height: 100%;
+        width: 100%;
+        max-width: 1px;
+        position: relative;
+        float: left;
+        max-height: 1px;
+        overflow: hidden;
+        z-index: -1;
+        padding: 0;
+        margin: 0;
+        pointer-events: none;
+        -webkit-box-flex: inherit;
+            -ms-flex-positive: inherit;
+                flex-grow: inherit;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+    }
+.component_3LABJ .heightAutoObserver_2fQy3 {
+        -webkit-box-sizing: inherit;
+                box-sizing: inherit;
+        display: block;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 1000%;
+        width: 1000%;
+        min-height: 1px;
+        min-width: 1px;
+        overflow: hidden;
+        pointer-events: none;
+        z-index: -1;
+    }
+.component_3LABJ .mask_2zECk {
+        direction: inherit;
+        position: absolute;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: auto;
+        height: auto;
+        z-index: 0;
+    }
+.component_3LABJ .offset_3G0rV {
+        direction: inherit;
+        -webkit-box-sizing: inherit;
+                box-sizing: inherit;
+        resize: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        padding: 0;
+        margin: 0;
+        -webkit-overflow-scrolling: touch;
+    }
+.component_3LABJ .contentWrapper_O8tDl {
+        direction: inherit;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        position: relative;
+        display: block;
+        height: 100%; /* Required for horizontal native scrollbar to not appear if parent is taller than natural height */
+        width: auto;
+        max-width: 100%; /* Not required for horizontal scroll to trigger */
+        max-height: 100%; /* Needed for vertical scroll to trigger */
+        scrollbar-width: none;
+        -ms-overflow-style: none
+    }
+.component_3LABJ .contentWrapper_O8tDl::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+.component_3LABJ .placeholder_DpNIg {
+        max-height: 100%;
+        max-width: 100%;
+        width: 100%;
+        pointer-events: none;
+    }
+.component_3LABJ .track {
+        z-index: 1;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        pointer-events: auto;
+        overflow: hidden
+    }
+.component_3LABJ .track.vertical_37moV {
+            top: 0;
+            width: var(--scrollbar-rail-size)
+        }
+.component_3LABJ .track.vertical_37moV.hover_3AuzV .scrollbar:before {
+                    -webkit-transform: scaleX(var(--scrollbar-scaling-factor));
+                            transform: scaleX(var(--scrollbar-scaling-factor));
+                }
+.component_3LABJ .track.vertical_37moV .scrollbar {
+                width: var(--scrollbar-thumb-size);
+                margin: 0 auto
+            }
+.component_3LABJ .track.vertical_37moV .scrollbar:before {
+                    right: var(--scrollbar-thumb-side-inner-offset);
+                    left: var(--scrollbar-thumb-side-inner-offset);
+                    top: var(--scrollbar-thumb-side-outer-offset);
+                    bottom: var(--scrollbar-thumb-side-outer-offset);
+                    -webkit-transition: opacity 0.2s linear, -webkit-transform 0.2s ease-in-out;
+                    transition: opacity 0.2s linear, -webkit-transform 0.2s ease-in-out;
+                    transition: opacity 0.2s linear, transform 0.2s ease-in-out;
+                    transition: opacity 0.2s linear, transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+                }
+.component_3LABJ .track.horizontal_X_9L5 {
+            left: 0;
+            height: var(--scrollbar-rail-size)
+        }
+.component_3LABJ .track.horizontal_X_9L5.hover_3AuzV .scrollbar:before {
+                    -webkit-transform: scaleY(var(--scrollbar-scaling-factor));
+                            transform: scaleY(var(--scrollbar-scaling-factor));
+                }
+.component_3LABJ .track.horizontal_X_9L5 .scrollbar {
+                right: auto;
+                left: 0;
+                bottom: var(--scrollbar-thumb-side-outer-offset);
+                height: var(--scrollbar-thumb-size);
+                min-height: 0;
+                min-width: 40px;
+                width: auto
+            }
+.component_3LABJ .track.horizontal_X_9L5 .scrollbar:before {
+                    left: var(--scrollbar-thumb-side-outer-offset);
+                    right: var(--scrollbar-thumb-side-outer-offset);
+                    top: var(--scrollbar-thumb-side-inner-offset);
+                    bottom: var(--scrollbar-thumb-side-inner-offset);
+                    -webkit-transition: opacity 0.2s linear, -webkit-transform 0.2s ease-in-out;
+                    transition: opacity 0.2s linear, -webkit-transform 0.2s ease-in-out;
+                    transition: opacity 0.2s linear, transform 0.2s ease-in-out;
+                    transition: opacity 0.2s linear, transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+                }
+.component_3LABJ .scrollbar {
+        position: absolute;
+        left: 0;
+        right: 0;
+        min-height: 40px
+    }
+.component_3LABJ .scrollbar:before {
+            position: absolute;
+            content: '';
+            border-radius: var(--scrollbar-thumb-border-radius);
+            left: 0;
+            right: 0;
+            opacity: 0;
+        }
+.component_3LABJ .scrollbar.visible:before {
+            opacity: 1;
+        }
+.component_3LABJ.dragging .content_1YRzi {
+        pointer-events: none;
+        -moz-user-select: none;
+         -ms-user-select: none;
+             user-select: none;
+        -webkit-user-select: none;
+    }
+.component_3LABJ.dragging .track {
+        pointer-events: all
+    }
+.component_3LABJ.dragging .track.vertical_37moV .scrollbar:before {
+            -webkit-transform: scaleX(var(--scrollbar-scaling-factor));
+                    transform: scaleX(var(--scrollbar-scaling-factor));
+        }
+.component_3LABJ.dragging .track.horizontal_X_9L5 .scrollbar:before {
+            -webkit-transform: scaleY(var(--scrollbar-scaling-factor));
+                    transform: scaleY(var(--scrollbar-scaling-factor));
+        }
+.simplebar-hide-scrollbar {
+    position: fixed;
+    left: 0;
+    visibility: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none
+}
+.simplebar-hide-scrollbar::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+:root {
+    --scrollbar-background-color: var(--color-light-graphic-primary-alpha-30);
+    --scrollbar-background-color-active: var(--color-light-graphic-primary-alpha-60);
+}
+.component_2bkoG .scrollbar:before {
+            background-color: var(--scrollbar-background-color);
+        }
+.component_2bkoG.dragging .track .scrollbar.visible:before {
+            background-color: var(--scrollbar-background-color-active);
+        }
+:root {
+    --scrollbar-inverted-background-color: var(--color-light-graphic-primary-inverted-alpha-30);
+    --scrollbar-inverted-background-color-active: var(
+        --color-light-graphic-primary-inverted-alpha-60
+    );
+}
+.component_2u3hy .scrollbar:before {
+            background-color: var(--scrollbar-inverted-background-color);
+        }
+.component_2u3hy.dragging .track .scrollbar.visible:before {
+            background-color: var(--scrollbar-inverted-background-color-active);
+        }
 .optgroup_3S00X {
     position: relative;
     display: -webkit-box;
@@ -16676,6 +16923,7 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     --color-dark-graphic-primary-alpha-30: rgba(255, 255, 255, 0.3);
     --color-dark-graphic-primary-alpha-40: rgba(255, 255, 255, 0.4);
     --color-dark-graphic-primary-alpha-50: rgba(255, 255, 255, 0.5);
+    --color-dark-graphic-primary-alpha-60: rgba(255, 255, 255, 0.6);
     --color-dark-graphic-primary-shade-15: rgb(217, 217, 217);
     --color-dark-graphic-primary-shade-20: rgb(204, 204, 204);
     --color-dark-graphic-primary-shade-30: rgb(179, 179, 179);
@@ -16684,6 +16932,7 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     --color-dark-graphic-primary-inverted-alpha-30: rgba(11, 31, 53, 0.3);
     --color-dark-graphic-primary-inverted-alpha-40: rgba(11, 31, 53, 0.4);
     --color-dark-graphic-primary-inverted-alpha-50: rgba(11, 31, 53, 0.5);
+    --color-dark-graphic-primary-inverted-alpha-60: rgba(11, 31, 53, 0.6);
     --color-dark-graphic-primary-inverted-tint-7: rgb(28, 47, 67);
     --color-dark-graphic-primary-inverted-tint-10: rgb(35, 53, 73);
     --color-dark-graphic-primary-inverted-tint-15: rgb(48, 65, 83);
@@ -16797,6 +17046,7 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     --color-light-graphic-primary-alpha-30: rgba(11, 31, 53, 0.3);
     --color-light-graphic-primary-alpha-40: rgba(11, 31, 53, 0.4);
     --color-light-graphic-primary-alpha-50: rgba(11, 31, 53, 0.5);
+    --color-light-graphic-primary-alpha-60: rgba(11, 31, 53, 0.6);
     --color-light-graphic-primary-tint-15: rgb(48, 65, 83);
     --color-light-graphic-primary-tint-20: rgb(60, 76, 93);
     --color-light-graphic-primary-tint-30: rgb(84, 98, 114);
@@ -16805,6 +17055,7 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     --color-light-graphic-primary-inverted-alpha-30: rgba(255, 255, 255, 0.3);
     --color-light-graphic-primary-inverted-alpha-40: rgba(255, 255, 255, 0.4);
     --color-light-graphic-primary-inverted-alpha-50: rgba(255, 255, 255, 0.5);
+    --color-light-graphic-primary-inverted-alpha-60: rgba(255, 255, 255, 0.6);
     --color-light-graphic-primary-inverted-shade-7: rgb(237, 237, 237);
     --color-light-graphic-primary-inverted-shade-10: rgb(230, 230, 230);
     --color-light-graphic-primary-inverted-shade-15: rgb(217, 217, 217);
