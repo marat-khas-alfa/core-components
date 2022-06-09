@@ -2239,22 +2239,24 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     padding: 0 var(--gap-m);
 }
 .wrapper_2PBa5 {
-    border-radius: 50%
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box
 }
 .wrapper_2PBa5.s_2mOsT {
         padding: 2px;
-        min-width: 14px;
-        height: 14px;
+        width: 18px;
+        height: 18px;
     }
 .wrapper_2PBa5.m_eH0x0 {
         padding: 2px;
-        width: 20px;
-        height: 20px;
+        width: 24px;
+        height: 24px;
     }
 .wrapper_2PBa5.xl_2catJ {
         padding: 5px;
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
     }
 .icon_3eNAJ {
     height: auto;
