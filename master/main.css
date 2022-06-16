@@ -3479,6 +3479,10 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     -webkit-transition: var(--bottom-sheet-out-transition);
     transition: var(--bottom-sheet-out-transition);
 }
+.withZeroTransition_hzuMf {
+    -webkit-transition: 0s linear;
+    transition: 0s linear;
+}
 .scrollableContainer_mLJOb {
     overflow: auto;
     display: -webkit-box;
