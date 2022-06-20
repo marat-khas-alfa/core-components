@@ -15707,16 +15707,17 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     display: none;
 }
 .title_3QFrM {
-
-    padding: var(--primary-tablist-mobile-padding);
-    font-size: var(--primary-tablist-mobile-font-size);
-    font-weight: var(--primary-tablist-mobile-font-weight);
-    font-family: var(--primary-tablist-mobile-font-family);
-    line-height: 24px
 }
-.title_3QFrM + .title_3QFrM {
-        margin-left: var(--primary-tablist-mobile-gaps);
+.mobile_3I2hJ .title_3QFrM {
+        padding: var(--primary-tablist-mobile-padding);
+        font-size: var(--primary-tablist-mobile-font-size);
+        font-weight: var(--primary-tablist-mobile-font-weight);
+        font-family: var(--primary-tablist-mobile-font-family);
+        line-height: 24px
     }
+.mobile_3I2hJ .title_3QFrM + .title_3QFrM {
+            margin-left: var(--primary-tablist-mobile-gaps);
+        }
 :root {
     --primary-tablist-color: var(--color-light-text-secondary);
     --primary-tablist-hover-color: var(--color-light-text-primary);
@@ -15783,7 +15784,7 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
 }
 .title_WPI2p {
 }
-.title_WPI2p + .title_WPI2p {
+.mobile_3y8eA .title_WPI2p + .title_WPI2p {
         margin-left: var(--secondary-tablist-mobile-gaps);
     }
 :root {
