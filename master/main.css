@@ -3990,44 +3990,44 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     transition: opacity 300ms, transform 300ms;
     transition: opacity 300ms, transform 300ms, -webkit-transform 300ms;
 }
-.button_235_J {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
+.cc-calendar .button_235_J {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
 
-    height: 40px;
-    position: relative;
-    padding: 0 var(--gap-xs);
-    background-color: transparent;
-    border-radius: var(--border-radius-l)
-}
-.button_235_J:not(:disabled):hover {
-        background-color: var(--color-light-bg-tertiary);
-        color: var(--color-light-text-primary);
+        height: 40px;
+        position: relative;
+        padding: 0 var(--gap-xs);
+        background-color: transparent;
+        border-radius: var(--border-radius-l)
     }
-.button_235_J.filled_23r4p {
-        background-color: var(--color-light-bg-tertiary)
-    }
-.button_235_J.filled_23r4p:not(:disabled):hover {
-            background-color: var(--color-light-bg-tertiary-shade-7);
+.cc-calendar .button_235_J:not(:disabled):hover {
+            background-color: var(--color-light-bg-tertiary);
+            color: var(--color-light-text-primary);
         }
-.button_235_J.outlined_zigT1 {
-        border: 1px solid var(--calendar-select-button-today-border-color);
-    }
-.button_235_J.selected_ctQc_,
-    .button_235_J.selected_ctQc_:disabled {
-        background-color: var(--calendar-select-button-selected-background);
-        color: var(--color-light-text-primary-inverted)
-    }
-.button_235_J.selected_ctQc_:not(:disabled):hover, .button_235_J.selected_ctQc_:disabled:not(:disabled):hover {
+.cc-calendar .button_235_J.filled_23r4p {
+            background-color: var(--color-light-bg-tertiary)
+        }
+.cc-calendar .button_235_J.filled_23r4p:not(:disabled):hover {
+                background-color: var(--color-light-bg-tertiary-shade-7);
+            }
+.cc-calendar .button_235_J.outlined_zigT1 {
+            border: 1px solid var(--calendar-select-button-today-border-color);
+        }
+.cc-calendar .button_235_J.selected_ctQc_,
+        .cc-calendar .button_235_J.selected_ctQc_:disabled {
             background-color: var(--calendar-select-button-selected-background);
-            color: var(--color-light-text-primary-inverted);
+            color: var(--color-light-text-primary-inverted)
         }
-.button_235_J > * {
-        -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
-    }
+.cc-calendar .button_235_J.selected_ctQc_:not(:disabled):hover, .cc-calendar .button_235_J.selected_ctQc_:disabled:not(:disabled):hover {
+                background-color: var(--calendar-select-button-selected-background);
+                color: var(--color-light-text-primary-inverted);
+            }
+.cc-calendar .button_235_J > * {
+            -webkit-box-flex: 1;
+                -ms-flex-positive: 1;
+                    flex-grow: 1;
+        }
 .monthsTable_38CHu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4044,31 +4044,31 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
         width: var(--calendar-mobile-inner-width)
 }
     }
-.button_1DAkc {
-    width: calc((var(--calendar-inner-width) / 3) - (var(--gap-xs) / 3));
-    margin-right: var(--gap-2xs);
-    margin-bottom: var(--gap-xs)
-}
-.button_1DAkc:nth-child(3n) {
-        margin-right: 0;
+.cc-calendar .button_1DAkc {
+        width: calc((var(--calendar-inner-width) / 3) - (var(--gap-xs) / 3));
+        margin-right: var(--gap-2xs);
+        margin-bottom: var(--gap-xs)
     }
-@media (max-width: 374px) {
-.button_1DAkc {
-        width: calc((var(--calendar-mobile-inner-width) / 2) - (var(--gap-2xs) / 2))
-}
-
-        .button_1DAkc:nth-child(3n) {
-            margin-right: var(--gap-2xs);
-        }
-
-        .button_1DAkc:nth-child(2n) {
+.cc-calendar .button_1DAkc:nth-child(3n) {
             margin-right: 0;
         }
-.button_1DAkc {
-
-        height: 36px
-}
+@media (max-width: 374px) {
+.cc-calendar .button_1DAkc {
+            width: calc((var(--calendar-mobile-inner-width) / 2) - (var(--gap-2xs) / 2))
     }
+
+            .cc-calendar .button_1DAkc:nth-child(3n) {
+                margin-right: var(--gap-2xs);
+            }
+
+            .cc-calendar .button_1DAkc:nth-child(2n) {
+                margin-right: 0;
+            }
+.cc-calendar .button_1DAkc {
+
+            height: 36px
+    }
+        }
 .yearsTable_3N1Mq {
     overflow: auto;
     overflow-x: hidden;
@@ -4094,32 +4094,32 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
         left: 16px
 }
     }
-.button_2MzOa {
-    /* 3 колонки с равными отступами */
-    width: calc((var(--calendar-inner-width) / 3) - (var(--gap-xs) / 3));
-    margin-right: var(--gap-2xs);
-    margin-bottom: var(--gap-xs)
-}
-.button_2MzOa:nth-child(3n) {
-        margin-right: 0;
+.cc-calendar .button_2MzOa {
+        /* 3 колонки с равными отступами */
+        width: calc((var(--calendar-inner-width) / 3) - (var(--gap-xs) / 3));
+        margin-right: var(--gap-2xs);
+        margin-bottom: var(--gap-xs)
     }
-@media (max-width: 374px) {
-.button_2MzOa {
-        width: calc((var(--calendar-mobile-inner-width) / 2) - (var(--gap-2xs) / 2))
-}
-
-        .button_2MzOa:nth-child(3n) {
-            margin-right: var(--gap-2xs);
-        }
-
-        .button_2MzOa:nth-child(2n) {
+.cc-calendar .button_2MzOa:nth-child(3n) {
             margin-right: 0;
         }
-.button_2MzOa {
-
-        height: 36px
-}
+@media (max-width: 374px) {
+.cc-calendar .button_2MzOa {
+            width: calc((var(--calendar-mobile-inner-width) / 2) - (var(--gap-2xs) / 2))
     }
+
+            .cc-calendar .button_2MzOa:nth-child(3n) {
+                margin-right: var(--gap-2xs);
+            }
+
+            .cc-calendar .button_2MzOa:nth-child(2n) {
+                margin-right: 0;
+            }
+.cc-calendar .button_2MzOa {
+
+            height: 36px
+    }
+        }
 .component_3Otvz {
     position: relative;
     height: 40px;
@@ -4262,9 +4262,9 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
         -ms-flex-pack: center;
             justify-content: center;
 }
-.button_2vktU {
-    border-radius: var(--border-radius-s);
-}
+.cc-calendar .button_2vktU {
+        border-radius: var(--border-radius-s);
+    }
 .month_3jyn6 {
     -ms-flex-preferred-size: 65%;
         flex-basis: 65%
