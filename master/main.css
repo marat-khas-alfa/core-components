@@ -3142,9 +3142,6 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
 .primary_2zKzl:active {
         color: var(--icon-button-primary-active-color);
     }
-.primary_2zKzl.component_3metB:disabled.loader_lt-z1 {
-    color: var(--icon-button-primary-base-color);
-}
 .secondary_1ncm9 {
     color: var(--icon-button-secondary-base-color)
 }
@@ -3154,9 +3151,6 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
 .secondary_1ncm9:active {
         color: var(--icon-button-secondary-active-color);
     }
-.secondary_1ncm9.component_3metB:disabled.loader_lt-z1 {
-    color: var(--icon-button-secondary-base-color);
-}
 .transparent_3VHuY {
     color: var(--icon-button-transparent-base-color)
 }
@@ -3175,9 +3169,6 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
 .negative_1AGYZ:active {
         color: var(--icon-button-negative-active-color);
     }
-.negative_1AGYZ.component_3metB:disabled.loader_lt-z1 {
-    color: var(--icon-button-negative-base-color);
-}
 .tertiary_2jkAy {
     color: var(--icon-button-tertiary-base-color)
 }
@@ -3187,9 +3178,30 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
 .tertiary_2jkAy:active {
         color: var(--icon-button-tertiary-active-color);
     }
-.tertiary_2jkAy.component_3metB:disabled.loader_lt-z1 {
-    color: var(--icon-button-tertiary-base-color);
-}
+.component_3metB:disabled.primary_2zKzl {
+        color: var(--icon-button-primary-disabled-color)
+    }
+.component_3metB:disabled.primary_2zKzl.loader_lt-z1 {
+            color: var(--icon-button-primary-base-color);
+        }
+.component_3metB:disabled.secondary_1ncm9 {
+        color: var(--icon-button-secondary-disabled-color)
+    }
+.component_3metB:disabled.secondary_1ncm9.loader_lt-z1 {
+            color: var(--icon-button-secondary-base-color);
+        }
+.component_3metB:disabled.negative_1AGYZ {
+        color: var(--icon-button-negative-disabled-color)
+    }
+.component_3metB:disabled.negative_1AGYZ.loader_lt-z1 {
+            color: var(--icon-button-negative-base-color);
+        }
+.component_3metB:disabled.tertiary_2jkAy {
+        color: var(--icon-button-tertiary-disabled-color)
+    }
+.component_3metB:disabled.tertiary_2jkAy.loader_lt-z1 {
+            color: var(--icon-button-tertiary-base-color);
+        }
 :root {
     /* primary */
     --icon-button-inverted-primary-base-color: var(--color-light-graphic-primary-inverted);
@@ -3243,9 +3255,7 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
     --icon-button-inverted-negative-base-color: var(--color-light-graphic-negative);
     --icon-button-inverted-negative-hover-color: var(--color-light-graphic-negative-shade-7);
     --icon-button-inverted-negative-active-color: var(--color-light-graphic-negative-shade-15);
-    --icon-button-inverted-negative-disabled-color: var(
-        --color-light-graphic-negative-inverted-alpha-30
-    );
+    --icon-button-inverted-negative-disabled-color: var(--color-light-graphic-negative-alpha-30);
 }
 .primary_1igmD {
     color: var(--icon-button-inverted-primary-base-color)
@@ -3292,6 +3302,30 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
 .tertiary_2HU7G:active {
         color: var(--icon-button-inverted-tertiary-active-color);
     }
+.component_3eIeD:disabled.primary_1igmD {
+        color: var(--icon-button-inverted-primary-disabled-color)
+    }
+.component_3eIeD:disabled.primary_1igmD.loader_2XKVC {
+            color: var(--icon-button-inverted-primary-base-color);
+        }
+.component_3eIeD:disabled.secondary_21mnv {
+        color: var(--icon-button-inverted-secondary-disabled-color)
+    }
+.component_3eIeD:disabled.secondary_21mnv.loader_2XKVC {
+            color: var(--icon-button-inverted-secondary-base-color);
+        }
+.component_3eIeD:disabled.negative_3ppuG {
+        color: var(--icon-button-inverted-negative-disabled-color)
+    }
+.component_3eIeD:disabled.negative_3ppuG.loader_2XKVC {
+            color: var(--icon-button-inverted-negative-base-color);
+        }
+.component_3eIeD:disabled.tertiary_2HU7G {
+        color: var(--icon-button-inverted-tertiary-disabled-color)
+    }
+.component_3eIeD:disabled.tertiary_2HU7G.loader_2XKVC {
+            color: var(--icon-button-inverted-tertiary-base-color);
+        }
 
 :root {
     --bottom-sheet-closer-bg-color: var(--color-light-bg-primary-inverted-alpha-3);
