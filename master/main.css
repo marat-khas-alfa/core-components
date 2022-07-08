@@ -11374,6 +11374,7 @@ input:focus:not(:read-only) + .suffixContainer_3UK5m,
 .block_3oZwo {
     width: 100%;
 }
+/* width: max-content; fix for IE */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .component_35WUy {
         float: left;
